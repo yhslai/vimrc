@@ -10,7 +10,11 @@ filetype plugin on
 
 "Auto open NERD_tree
 au VimEnter * NERDTree
+let NERDTreeWinSize = 20
 
+"Set taglist
+let Tlist_Use_Right_Window = 1
+let Tlist_WinWidth = 20 
 
 """"
 "General Options
@@ -59,3 +63,5 @@ let mapleader=","
 " ,/ turn off search highlighting
 nmap <leader>/ :nohl<CR>
 
+" <F8> open taglist
+nnoremap <silent> <F8> :TlistToggle<CR>
