@@ -11,6 +11,7 @@ au VimEnter * NERDTree
 set t_Co=256
 colorscheme desert256
 hi Normal ctermfg=159
+hi Comment ctermfg=253
 
 "Indentation
 set smartindent
@@ -18,5 +19,3 @@ set autoindent
 set expandtab
 set softtabstop=4
 set shiftwidth=4
-
-
