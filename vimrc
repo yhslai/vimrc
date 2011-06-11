@@ -49,3 +49,13 @@ set gdefault
 
 "Other options
 set showcmd
+
+
+""""
+"Useful Shortcuts
+""""
+let mapleader=","
+
+" ,/ turn off search highlighting
+nmap <leader>/ :nohl<CR>
+
