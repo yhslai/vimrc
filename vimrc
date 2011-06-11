@@ -47,3 +47,5 @@ set wildmode=list:longest,full
 "Smarter substitution
 set gdefault
 
+"Other options
+set showcmd
