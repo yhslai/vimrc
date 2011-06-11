@@ -4,3 +4,6 @@
 [submodule "bundle-available/jade"]
 	path = bundle-available/jade
 	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "bundle-available/surround"]
+	path = bundle-available/surround
+	url = git://github.com/tpope/vim-surround.git
