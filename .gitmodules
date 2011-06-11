@@ -1,3 +1,6 @@
 [submodule "bundle-available/NERD_Tree"]
 	path = bundle-available/NERD_Tree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle-available/jade"]
+	path = bundle-available/jade
+	url = git://github.com/digitaltoad/vim-jade.git
