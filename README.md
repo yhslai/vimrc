@@ -8,17 +8,12 @@ In fact, it's just made for myself. Anyone who likes it can use freely, but it's
 
 ### What plugins does it contain?
 *   pathogen
-
     Of course.
-
 *   NERD\_tree
-
     Auto-open when vim runs.
-  
 *   jade
 *   surround
 *   taglist
-
     Press F8 to toggle.
 
 ### Installation
