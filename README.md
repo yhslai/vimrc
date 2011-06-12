@@ -17,13 +17,13 @@ What plugins does it contain?
 
 Installation
 -------------
-1. Put all thing in ~/.vim
+1. Put all thing into ~/.vim
 2. Link .vimrc to ~/.vim/vimrc
 
         cd ~
         ln -s ~/.vim/vimrc .vimrc
 
-3. Install [DoctorJS](https://github.com/mozilla/doctorjs) if you haven't had one. It's for tgalist.
+3. Install [DoctorJS](https://github.com/mozilla/doctorjs) if you haven't had one. It's for taglist.
 
 Shortcuts
 ------------
