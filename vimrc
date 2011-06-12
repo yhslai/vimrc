@@ -12,9 +12,10 @@ filetype plugin on
 au VimEnter * NERDTree
 let NERDTreeWinSize = 20
 
-"Set taglist
-let Tlist_Use_Right_Window = 1
-let Tlist_WinWidth = 20 
+"Set Tagbar
+let g:tagbar_width = 25
+let g:tagbar_autofocus = 1
+let g:tagbar_compact = 1
 
 """"
 "General Options
@@ -65,7 +66,7 @@ let mapleader=","
 nmap <leader>/ :nohl<CR>
 
 " <F8> open taglist
-nnoremap <silent> <F8> :TlistToggle<CR>
+nnoremap <silent> <F8> :TagbarToggle<CR>
 
 " new tab
 map <C-t><C-t> :tabnew<CR>
