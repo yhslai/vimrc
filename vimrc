@@ -53,6 +53,7 @@ set gdefault
 
 "Other options
 set showcmd
+set autochdir
 
 
 """"
