@@ -66,3 +66,9 @@ nmap <leader>/ :nohl<CR>
 
 " <F8> open taglist
 nnoremap <silent> <F8> :TlistToggle<CR>
+
+" new tab
+map <C-t><C-t> :tabnew<CR>
+" close tab
+map <C-t><C-w> :tabclose<CR>
+
