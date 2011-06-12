@@ -9,15 +9,11 @@ In fact, it's just made for myself. Anyone who likes it can use or fork it freel
 
 What plugins does it contain?
 -------------
-*   pathogen -- Of course.
-
-*   NERD\_tree -- Auto-open when vim runs.
-
+*   pathogen
+*   NERD\_tree
 *   jade
-
 *   surround
-
-*   taglist -- Press F8 to toggle.
+*   taglist
 
 Installation
 -------------
@@ -26,3 +22,14 @@ Installation
 
         cd ~
         ln -s ~/.vim/vimrc .vimrc
+
+3. Install [DoctorJS](https://github.com/mozilla/doctorjs) if you haven't had one. It's for tgalist.
+
+Shortcuts
+------------
++ <F8> to open taglist
++ ,/ to close search highlight
++ <Ctrl-t><Ctrl-t> to open a new tab
++ <Ctrl-t><Ctrl-w> to close current tab
+
+Other shortcuts are the same as the plugins' default settings.
