@@ -70,7 +70,7 @@ nmap <leader>/ :nohl<CR>
 nnoremap <silent> <F8> :TagbarToggle<CR>
 
 " new tab
-map <C-t><C-t> :tabnew<CR>
+map <C-t>n :tabnew<CR>
 " close tab
-map <C-t><C-w> :tabclose<CR>
+map <C-t>c :tabclose<CR>
 
