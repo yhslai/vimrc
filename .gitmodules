@@ -10,3 +10,6 @@
 [submodule "bundle-available/tagbar"]
 	path = bundle-available/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle-available/autoclose"]
+	path = bundle-available/autoclose
+	url = git://github.com/Townk/vim-autoclose.git
