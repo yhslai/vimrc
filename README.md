@@ -14,6 +14,7 @@ What plugins does it contain?
 *   jade
 *   surround
 *   taglist
+*   autoclose
 
 Installation
 -------------
