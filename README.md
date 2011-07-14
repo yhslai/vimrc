@@ -30,7 +30,7 @@ Shortcuts
 ------------
 + `<F8>` to open taglist
 + `,/` to close search highlight
-+ `<Ctrl-t><Ctrl-t>` to open a new tab
-+ `<Ctrl-t><Ctrl-w>` to close current tab
++ `<Ctrl-t>n` to open a new tab
++ `<Ctrl-t>c` to close current tab
 
 Other shortcuts are the same as the plugins' default settings.
