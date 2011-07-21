@@ -57,6 +57,11 @@ set gdefault
 set showcmd
 set autochdir
 
+"Fix arrow keys  problem
+imap OA <Up>
+imap OB <Down>
+imap OC <Right>
+imap OD <Left>
 
 """"
 "Useful Shortcuts
