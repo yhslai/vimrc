@@ -13,3 +13,9 @@
 [submodule "bundle-available/autoclose"]
 	path = bundle-available/autoclose
 	url = git://github.com/Townk/vim-autoclose.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle-available/vim-rails"]
+	path = bundle-available/vim-rails
+	url = git://github.com/tpope/vim-rails.git
