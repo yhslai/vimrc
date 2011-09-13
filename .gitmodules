@@ -19,3 +19,6 @@
 [submodule "bundle-available/vim-rails"]
 	path = bundle-available/vim-rails
 	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle-available/fugitive"]
+	path = bundle-available/fugitive
+	url = git://github.com/tpope/vim-fugitive.git

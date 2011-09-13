@@ -9,7 +9,7 @@ call pathogen#helptags() "call this when installing new plugins
 filetype plugin indent on
 
 "Auto open NERD_tree
-au VimEnter * NERDTree
+au VimEnter * NERDTreeToggle
 let NERDTreeWinSize = 20
 
 "Set Tagbar
