@@ -18,6 +18,9 @@ let g:tagbar_autofocus = 1
 let g:tagbar_compact = 1
 let g:tagbar_sort = 0
 
+"Set coffee-script indentation to 2
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 softtabstop=2 expandtab
+
 """"
 "General Options
 """"
