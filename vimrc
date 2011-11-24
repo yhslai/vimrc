@@ -21,6 +21,9 @@ let g:tagbar_sort = 0
 "Set coffee-script indentation to 2
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 softtabstop=2 expandtab
 
+"Have vim know JSON type
+au! BufRead,BufNewFile *.json set filetype=json 
+
 """"
 "General Options
 """"
