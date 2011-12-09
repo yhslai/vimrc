@@ -25,3 +25,6 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle-available/command-t"]
+	path = bundle-available/command-t
+	url = git://git.wincent.com/command-t.git
