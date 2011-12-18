@@ -28,3 +28,6 @@
 [submodule "bundle-available/command-t"]
 	path = bundle-available/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "bundle-available/vim-coffee-script"]
+	path = bundle-available/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
