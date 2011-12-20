@@ -10,6 +10,7 @@ au VimEnter * NERDTreeToggle
 let NERDTreeWinSize = 20
 let NERDTreeHighlightCursorline = 1
 let NERDChristmasTree = 1
+let NERDTreeChDirMode = 2 
 
 "Set Tagbar
 let g:tagbar_width = 25
