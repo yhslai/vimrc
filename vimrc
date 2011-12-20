@@ -3,10 +3,7 @@
 """"
 
 "Call pathogen
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags() "call this when installing new plugins
-filetype plugin indent on
+call pathogen#infect() 
 
 "Auto open NERD_tree
 au VimEnter * NERDTreeToggle
@@ -22,7 +19,8 @@ let g:tagbar_sort = 0
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 softtabstop=2 expandtab
 
 "Have vim know JSON type
-au! BufRead,BufNewFile *.json set filetype=json 
+au BufRead,BufNewFile *.json set filetype=json 
+
 
 """"
 "General Options
