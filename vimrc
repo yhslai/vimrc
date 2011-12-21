@@ -4,13 +4,14 @@
 
 "Call pathogen
 call pathogen#infect() 
+filetype plugin indent on
 
 "Auto open NERD_tree
 au VimEnter * NERDTreeToggle
 let NERDTreeWinSize = 20
 let NERDTreeHighlightCursorline = 1
 let NERDChristmasTree = 1
-let NERDTreeChDirMode = 2 
+let NERDTreeChDirMode = 2
 
 "Set Tagbar
 let g:tagbar_width = 25
@@ -62,7 +63,7 @@ set gdefault
 
 "Other options
 set showcmd
-set autochdir
+set noautochdir
 
 "Fix arrow keys  problem
 imap OA <Up>
