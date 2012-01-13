@@ -35,6 +35,8 @@ set t_Co=256
 colorscheme desert256
 hi Normal ctermfg=159
 hi Comment ctermfg=253
+hi CursorLine ctermbg=0
+hi CursorColumn ctermbg=0
 
 "Indentation
 set smartindent
@@ -61,7 +63,11 @@ set wildmode=list:longest,full
 "Smarter substitution
 set gdefault
 
-"Other options
+"Show current line and column
+set cursorline
+set cursorcolumn
+
+"Miscellaneous options
 set showcmd
 set noautochdir
 
