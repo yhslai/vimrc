@@ -64,8 +64,8 @@ set wildmode=list:longest,full
 set gdefault
 
 "Show current line and column
-set cursorline
 set cursorcolumn
+set cursorline
 
 "Miscellaneous options
 set showcmd
