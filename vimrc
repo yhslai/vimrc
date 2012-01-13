@@ -93,3 +93,25 @@ map <C-t>n :tabnew<CR>
 " close tab
 map <C-t>c :tabclose<CR>
 
+""""
+"CoffeeTags config
+""""
+
+" Add this type definition to your vimrc
+" or do
+" coffeetags --vim-conf >> <PATH TO YOUR VIMRC>
+" if you want your tags to include vars/objects do:
+" coffeetags --vim-conf --include-vars
+ let g:tagbar_type_coffee = {
+  \ 'kinds' : [
+  \   'f:functions',
+  \   'o:object'
+  \ ],
+  \ 'kind2scope' : {
+  \  'f' : 'object',
+  \   'o' : 'object'
+  \},
+  \ 'sro' : ".",
+  \ 'ctagsbin' : 'coffeetags',
+  \ 'ctagsargs' : ' ',
+  \}
