@@ -31,3 +31,6 @@
 [submodule "bundle-available/vim-coffee-script"]
 	path = bundle-available/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle-available/vim-stylus"]
+	path = bundle-available/vim-stylus
+	url = https://github.com/wavded/vim-stylus.git
