@@ -30,6 +30,10 @@ au BufRead,BufNewFile *.json set filetype=json
 "General Options
 """"
 
+set syntax=on
+set encoding=utf8
+
+
 "My favorite color scheme
 set t_Co=256
 colorscheme desert256
