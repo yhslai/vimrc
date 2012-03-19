@@ -30,7 +30,7 @@ au BufRead,BufNewFile *.json set filetype=json
 "General Options
 """"
 
-syntax=on
+syntax on
 set encoding=utf8
 
 
