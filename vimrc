@@ -19,11 +19,13 @@ let g:tagbar_autofocus = 1
 let g:tagbar_compact = 1
 let g:tagbar_sort = 0
 
-"Set coffee-script indentation to 2
-au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 softtabstop=2 expandtab
-
 "Have vim know JSON type
 au BufRead,BufNewFile *.json set filetype=json 
+
+"Set coffee-script indentation to 2
+autocmd FileType coffee setlocal shiftwidth=2 softtabstop=2
+"Set cucumber indentation to 2
+autocmd FileType cucumber setlocal shiftwidth=2 tabstop=2
 
 
 """"
