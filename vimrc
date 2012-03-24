@@ -27,6 +27,9 @@ autocmd FileType coffee setlocal shiftwidth=2 softtabstop=2
 "Set cucumber indentation to 2
 autocmd FileType cucumber setlocal shiftwidth=2 tabstop=2
 
+"Prevent Autoclose doubling my whitespace
+let g:AutoCloseExpandSpace = 0
+
 
 """"
 "General Options
