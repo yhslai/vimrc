@@ -22,9 +22,9 @@ let g:tagbar_sort = 0
 "Have vim know JSON type
 au BufRead,BufNewFile *.json set filetype=json 
 
-autocmd FileType coffee setlocal shiftwidth=2 softtabstop=2
-autocmd FileType cucumber setlocal shiftwidth=2 tabstop=2
-autocmd FileType python setlocal shiftwidth=2 tabstop=2
+autocmd FileType coffee setlocal shiftwidth=2 softtabstop=2 tabstop=2
+autocmd FileType cucumber setlocal shiftwidth=2 softtabstop=2 tabstop=2 
+autocmd FileType python setlocal shiftwidth=2 softtabstop=2 tabstop=2
 
 "Prevent Autoclose doubling my whitespace
 let g:AutoCloseExpandSpace = 0
