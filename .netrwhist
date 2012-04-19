@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/raincole/.vim/bundle-available/autoclose'
-let g:netrw_dirhist_2='/home/raincole/rails_projects/ntu_scheduler/app/views'
-let g:netrw_dirhist_3='/home/raincole/.vim'
-let g:netrw_dirhist_4='/home/raincole/rails_projects/starfish2/config'
-let g:netrw_dirhist_5='/home/raincole/DSA'
-let g:netrw_dirhist_6='/home/raincole/.vim/autoload'
-let g:netrw_dirhist_7='/home/raincole/rails_projects/starfish/spec'
-let g:netrw_dirhist_8='/home/raincole/rails_projects/starfish/app/assets/javascripts/templates'
-let g:netrw_dirhist_9='/home/raincole/rails_projects/starfish/spec/cells'
+let g:netrw_dirhist_cnt =0
