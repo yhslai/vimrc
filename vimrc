@@ -79,6 +79,9 @@ set cursorline
 set showcmd
 set noautochdir
 
+"Update frequently
+set updatetime=100
+
 "Fix arrow keys  problem
 imap OA <Up>
 imap OB <Down>
