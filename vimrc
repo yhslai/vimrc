@@ -6,8 +6,7 @@
 call pathogen#infect() 
 filetype plugin indent on
 
-"Auto open NERD_tree
-au VimEnter * NERDTreeToggle
+"au VimEnter * NERDTreeToggle
 let NERDTreeWinSize = 20
 let NERDTreeHighlightCursorline = 1
 let NERDChristmasTree = 1
