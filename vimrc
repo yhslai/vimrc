@@ -81,6 +81,9 @@ set noautochdir
 "Update frequently
 set updatetime=100
 
+"Speed up autocomplete by not searching included files
+set complete-=i
+
 "Fix arrow keys  problem
 imap OA <Up>
 imap OB <Down>
