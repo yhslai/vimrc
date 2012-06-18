@@ -84,6 +84,10 @@ set updatetime=100
 "Speed up autocomplete by not searching included files
 set complete-=i
 
+"Enable pre-directory .vimrc
+set exrc
+set secure
+
 "Fix arrow keys  problem
 imap OA <Up>
 imap OB <Down>
