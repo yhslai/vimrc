@@ -60,6 +60,7 @@ set showmatch
 set incsearch
 set hlsearch
 set ignorecase
+set infercase
 set smartcase
 set scrolloff=5
 
