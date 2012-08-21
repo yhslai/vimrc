@@ -37,3 +37,6 @@
 [submodule "bundle-available/ctrlp"]
 	path = bundle-available/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "bundle-available/vim-slim"]
+	path = bundle-available/vim-slim
+	url = https://github.com/bbommarito/vim-slim.git

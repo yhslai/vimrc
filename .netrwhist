@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/raincole/DSA/final/complete/boost'
+let g:netrw_dirhist_2='/home/raincole/rails_projects/namiluffy/luffy-daemon/config/pre-daemonize'
+let g:netrw_dirhist_3='/home/raincole/.vim/bundle-available/ctrlp/doc'
+let g:netrw_dirhist_4='/home/raincole/.vim/bundle-available/ctrlp/autoload'
+let g:netrw_dirhist_5='/home/raincole/rails_projects/starfish/config/deploy'

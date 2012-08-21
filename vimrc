@@ -80,7 +80,7 @@ set showcmd
 set noautochdir
 
 "Update frequently
-set updatetime=100
+set updatetime=1000
 
 "Speed up autocomplete by not searching included files
 set complete-=i
