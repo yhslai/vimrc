@@ -13,22 +13,30 @@ What plugins does it contain?
 *   NERD\_tree
 *   jade
 *   surround
-*   taglist
+*   tagbar
+*   ctrlp
 *   autoclose
 
 Installation
 -------------
 1. Put all thing into ~/.vim
+    
+    git clone https://github.com/raincole/vimrc.git .vim --recursive
+
 2. Link .vimrc to ~/.vim/vimrc
 
         cd ~
         ln -s ~/.vim/vimrc .vimrc
 
-3. Install [DoctorJS](https://github.com/mozilla/doctorjs) if you haven't had one. It's for taglist.
+3. Install
+  
+  * [ctags](http://ctags.sourceforge.net/)
+  * [CoffeeTags](https://github.com/lukaszkorecki/coffeetags) for CoffeeScript
+  * [DoctorJS](https://github.com/mozilla/doctorjs) for JavaScript.
 
 Shortcuts
 ------------
-+ `<F8>` to open taglist
++ `<F8>` to open tagbar
 + `,/` to close search highlight
 + `<Ctrl-t>n` to open a new tab
 + `<Ctrl-t>c` to close current tab
