@@ -111,6 +111,11 @@ map <C-t>n :tabnew<CR>
 " close tab
 map <C-t>c :tabclose<CR>
 
+nnoremap <C-up> <C-w><up>
+nnoremap <C-down> <C-w><down>
+nnoremap <C-left> <C-w><left>
+nnoremap <C-right> <C-w><right>
+
 """"
 "CoffeeTags config
 """"
