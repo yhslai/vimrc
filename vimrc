@@ -43,7 +43,7 @@ colorscheme desert256
 hi Normal ctermfg=159
 hi Comment ctermfg=253
 hi CursorLine ctermbg=0
-hi CursorColumn ctermbg=0
+hi CursorColumn ctermbg=237
 
 "Indentation
 set smartindent
@@ -90,10 +90,11 @@ set exrc
 set secure
 
 "Fix arrow keys  problem
-imap OA <Up>
-imap OB <Down>
-imap OC <Right>
-imap OD <Left>
+map OA <up>
+map OB <down>
+map OC <right>
+map OD <left>
+
 
 """"
 "Useful Shortcuts
