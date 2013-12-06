@@ -95,6 +95,9 @@ map OB <down>
 map OC <right>
 map OD <left>
 
+"For Mac's delete key
+set backspace=indent,eol,start
+
 
 """"
 "Useful Shortcuts
